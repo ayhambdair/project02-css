@@ -16,22 +16,18 @@ body {
     text-align: center;
 }
 
-/* Named Color */
 .named {
     background-color: red;
 }
 
-/* HEX Color */
 .hex {
     background-color: #008000;
 }
 
-/* RGB Color */
 .rgb {
     background-color: rgb(0, 0, 255);
 }
 
-/* RGBA Color */
 .rgba {
     background-color: rgba(128, 0, 128, 0.5);
 }
@@ -47,14 +43,12 @@ body {
     border: 2px solid black;
 }
 
-/* Opacity affects the entire element and its children */
 .opacity-box {
     background-color: blue;
     color: white;
     opacity: 0.5;
 }
 
-/* RGBA affects only the background color */
 .rgba-box {
     background-color: rgba(0, 0, 255, 0.5);
     color: black;
